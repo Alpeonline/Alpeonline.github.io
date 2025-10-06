@@ -23,6 +23,11 @@
 
 <div id="mainDiv">
 	<div id="content">
+		 <span id="star">
+    <a href="https://www.flightaware.com/live/flight/POE207" target="_blank">
+      <i class="fas fa-star" id="star-icon" style="color: gold; font-size: 40px;"></i>
+    </a>
+  </span>
 		<div id="code">
 			<span class="comments" style="color: white;">/**</span><br />
 			<span class="space"/><span class="comments">*THIS WEBSITE WAS MADE FOR SOFIA, WITH LOVE!</span><br />
@@ -53,7 +58,13 @@
 		</div>
 	</div>
 </div>
-<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width=800 height=700 src="https://www.airnavradar.com/?widget=1&z=7&hideAirportWeather=true&showLabels=true&showRoute=true&showAirlineLogo=true&showFn=true&airport=yyz&airline=PD&fn=POE207&aircraft=E295&class=A"></iframe>
+<!-- Add your map embed here -->
+<div id="map" style="margin-top:40px; text-align:center;">
+    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        width="650" height="500" 
+        src="https://www.airnavradar.com/?widget=1&z=7&fid=2563019156">
+    </iframe>
+</div>
 
 <script type="text/javascript">
 var offsetX = $("#loveHeart").width() / 2;
@@ -90,4 +101,3 @@ if (!document.createElement('canvas').getContext) {
 </script>
 </body>
 </html>
-
